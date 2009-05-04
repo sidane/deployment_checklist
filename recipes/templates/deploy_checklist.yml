@@ -1,0 +1,15 @@
+# Capistrano deployment_checklist plugin questions
+#
+# Example format for each question:
+# - question: "My deployment question"
+#   failure_message: "You haven't done something!"
+#   valid_answer: "Yep"
+#
+# valid_answer is optional and defaults to 'y'
+--- 
+- question: Change this to your question
+  failure_message: Change this to your failure message
+  valid_answer: Change this to non-default answer (optional)
+- question: Another question
+  failure_message: Change this to your failure message
+  valid_answer: Change this to non-default answer (optional)
