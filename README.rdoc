@@ -20,7 +20,7 @@ config file.
 
   - question: Is Google Analytics code installed on all pages? y/N
     failure_message: Please install Google Analytics
-  	valid_answer: yep
+    valid_answer: yep
 
 The default answer is 'y' or 'Y' but this can be over-ridden in the YAML config
 file by specifying 'valid_answer:'
