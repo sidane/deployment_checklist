@@ -14,14 +14,13 @@ only want the checklist to apply to a specific environment (e.g. production), yo
 can disable the checklist by adding the following to the relevant capistrano 
 config file.
 
-set :use_deployment_checklist, false
+  set :use_deployment_checklist, false
 
 == Example Checklist YAML file
 
---- 
-- question: Is Google Analytics code installed on all pages? y/N
-  failure_message: Please install Google Analytics
-	valid_answer: yep
+  - question: Is Google Analytics code installed on all pages? y/N
+    failure_message: Please install Google Analytics
+  	valid_answer: yep
 
 The default answer is 'y' or 'Y' but this can be over-ridden in the YAML config
 file by specifying 'valid_answer:'
