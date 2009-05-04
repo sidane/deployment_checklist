@@ -27,5 +27,4 @@ file by specifying 'valid_answer:'
 
 == License
 
-Copyright (c) 2009 Niall Mullally, released under the MIT license
-See MIT-LICENSE.txt in this directory.
+Copyright (c) 2009 Niall Mullally, released under the MIT license.
